@@ -39,7 +39,7 @@ echo -e $yellow"=Kontak :089606402413                         ="
 echo -e $red"=Date   :05-06-2018                            ="
 echo -e $yellow"================================================"
 echo ""
-echo -e $lightgreen"==========================================="
+echo -e $red"==========================================="
 echo -e $gold"= 01) Red Hawk       =     All Member     ="
 echo -e $gold"= 02) D-Tect         = -./Droid X ISH     ="     
 echo -e $gold"= 03) Hunner         = -Tn.Chaplin #001   ="
@@ -47,7 +47,7 @@ echo -e $gold"= 04) WPScan         = -Kuro Cyber        ="
 echo -e $gold"= 05) Webdav         = -{Mr.6undam77      ="
 echo -e $gold"= 06) Metasploit     = -Mr.Percil.com #001="
 echo -e $gold"= 07) Kali Nethunter = -Mr.X_X #001       ="
-echo -e $gold"= 08) Ubuntu         = -tante port8069    ="
+echo -e $yellow"= 08) Ubuntu         = -tante port8069    ="
 echo -e $gold"= 09) Youtube Dl     = -Mr.M1C1N.         ="
 echo -e $gold"= 10) viSQL          = -itsZNine7         ="
 echo -e $gold"= 11) WFDroid        = -Mr.P4T4H H4T¡     ="
@@ -55,13 +55,14 @@ echo -e $gold"= 12) FBBrute        = -Mr.CYRUS          ="
 echo -e $gold"= 13) Ngrok          = -./Gr.F4U24N       ="
 echo -e $gold"= 14) Torshammer     = -Mr.END.           ="
 echo -e $gold"= 15) AOCDEFACE      = -FMEI13.           ="
-echo -e $gold"= 16) APF            = -Al Kifly Cyber    ="
+echo -e $lightgreen"= 16) APF            = -Al Kifly Cyber    ="
 echo -e $gold"= 17) santet-online. = -./ChodotzID       ="
 echo -e $gold"= 18) Google-Dork    = -itsFrogTune7      ="
 echo -e $gold"= 19) Kuyang-Tools.  =-Mr.P3JU4N9 Trs4k1t1="
 echo -e $gold"= 20) wifi-hacker.   =-Ncs net22 t3rs4k1t1="
 echo -e $red"= 21) IP-TRACK       = -Mr.IK3H_ISH       ="
 echo -e $yellow"= 22) deface Webdav=                      ="
+echo -e $gold"= 23) Spam Matahari  =                    ="
 echo -e $gold"= 00) crotz          =                    ="
 echo -e $gold"==========================================="
 echo -e $white""
@@ -385,6 +386,13 @@ read -p "T.HUNTER=" script
 curl -T /storage/emulated/0/$script $target
 echo "\033[33;1m"
 echo "Done cek di$target $script "
+fi
+
+if [ $act = 23 ] || [ $act = 23 ]
+then
+figlet "T.HUNTER"
+cd module
+php mataharimall.php
 fi
 
 if [ $act = 00 ] || [ $act = 00 ]
