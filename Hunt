@@ -60,7 +60,7 @@ echo -e $gold"= 17) santet-online. = -./ChodotzID       ="
 echo -e $gold"= 18) Google-Dork    = -itsFrogTune7      ="
 echo -e $gold"= 19) Kuyang-Tools.  =-Mr.P3JU4N9 Trs4k1t1="
 echo -e $lightgreen"= 20) wifi-hacker.   =-Ncs net22 t3rs4k1t1="
-echo -e gold"= 21) IP-TRACK       = -Mr.IK3H_ISH       ="
+echo -e $gold"= 21) IP-TRACK       = -Mr.IK3H_ISH       ="
 echo -e $gold"= 22) xerxes         = -Ms.xyn            ="
 echo -e $gold"= 23) Spam Matahari  = -BIang KEROK       ="
 echo -e $gold"= 24) password Hash. = -Mr.R4NN           ="
@@ -68,6 +68,7 @@ echo -e $gold"= 25) spammer grab   = -Mr.Cot404         ="
 echo -e $gold"= 26) Ikon Sistem    = -BL4CKC4TD34D      ="
 echo -e $gold"= 27) LITESPAM       = -Mr.s3bl4x         ="
 echo -e $gold"= 28) auto bot fb    = -I'M Mackenzie     ="
+echo -e $gold"= 29) MBF            = -XveryXAnX         ="
 echo -e $gold"= 00) crotz          =                    ="
 echo -e $gold"==========================================="
 echo -e $white""
@@ -442,6 +443,17 @@ cd BotFbBangDjon
 python2 bangdjon.py
 fi
 
+if [ $act = 29 ] || [ $act = 29 ]
+then
+clear
+sleep 1
+apt update&&apt upgrade
+apt install python2
+pip2 install python2 git
+pip2 install mechanize
+git clone https://github.com/pirmansx/mbf
+fi
+
 if [ $act = 00 ] || [ $act = 00 ]
 then
 echo -e $green" thanks udah mau nyoba "
@@ -449,6 +461,8 @@ sleep 1
 echo -e $yellow" ISH was here "
 sleep 1
 echo -e $gold" mungkin agak sakit.... "
+sleep 1
+echo -e $lightgreen"kalo ketemu miyabi bilang gua"
 sleep 1
 exit
 fi
