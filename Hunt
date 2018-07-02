@@ -280,7 +280,6 @@ sleep 1
 pkg update
 pkg upgrade
 pkg install python
-pip install -r requisments.txt
 pkg install git
 git clone https://github.com/cyweb/hammer
 cd ~/
